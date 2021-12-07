@@ -1,0 +1,34 @@
+body{
+    background-color:rgb(238,125,125);
+    font-family:'Times New Roman',Times, serif;
+    text-align:center;
+}
+h1,h2{
+    color:rgb(255,255,255);
+}
+.kotak1{
+    background:rgb(255,255,255);
+    padding:20px;
+    float:left;
+    margin:20px;
+    width:150px;
+    height:150px;
+}
+.kotak2{
+    background:rgb(255,255,255);
+    padding:20px;
+    float:left;
+    margin:20px;
+    width:150px;
+    height:150px;
+    /* matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY()) */
+    /* Standard Syntax */
+    transform:matrix(1,2,-1,1,5,4);
+    /* For Safari 5.1 to 6.0 */
+    -webkit-transform:matrix(1,2,-1,1,5,4);
+    /* For Internet Explorer 9.0 */
+    -ms-transform:matrix(1,2,-1,1,5,4);
+}
+    /* Pakai syntax standard dan lain-lain itu bisa semua, 
+    tetapi jika digunakan lebih dari 1 jenis syntax dan didalamnya ada untuk Safari, 
+    maka yang lebih diproritaskan ya Safari*/

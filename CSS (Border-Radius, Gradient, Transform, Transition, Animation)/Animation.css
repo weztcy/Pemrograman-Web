@@ -1,0 +1,20 @@
+body{
+    background-color:rgb(238,125,125);
+    font-family:'Times New Roman',Times, serif;
+    text-align:center;
+}
+h1,h2{
+    color:rgb(255,255,255);
+    width:550px
+}
+.kotak{
+    background:rgb(255,255,255);
+    width:150px;
+    height:150px;
+    animation-name:"animasi_kotak";
+    animation-duration:2s;
+}
+@keyframes animasi_kotak{
+    from{background:rgb(0,158,0);}
+    to{background:rgb(47, 0, 80);}
+}

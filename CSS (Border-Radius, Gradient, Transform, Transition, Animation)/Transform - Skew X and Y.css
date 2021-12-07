@@ -1,0 +1,75 @@
+body{
+    background-color:rgb(238,125,125);
+    font-family:'Times New Roman',Times, serif;
+    text-align:center;
+}
+h1,h2{
+    color:rgb(255,255,255);
+}
+.kotak1{
+    background:rgb(255,255,255);
+    padding:20px;
+    float:left;
+    margin:20px;
+    width:150px;
+    height:150px;
+}
+.kotak2{
+    background:rgb(255,255,255);
+    padding:20px;
+    float:left;
+    margin:20px;
+    width:150px;
+    height:150px;
+    /* Standard Syntax */
+    transform:skew(20deg);
+    /* For Safari 5.1 to 6.0 */
+    -webkit-transform:skew(20deg);
+    /* For Internet Explorer 9.0 */
+    -ms-transform:skew(20deg);
+}
+.kotak3{
+    background:rgb(255,255,255);
+    padding:20px;
+    float:left;
+    margin:20px;
+    width:150px;
+    height:150px;
+    /* Standard Syntax */
+    transform:skew(30deg,20deg);
+    /* For Safari 5.1 to 6.0 */
+    -webkit-transform:skew(30deg,20deg);
+    /* For Internet Explorer 9.0 */
+    -ms-transform:skew(30deg,20deg);
+}
+.kotak4{
+    background:rgb(255,255,255);
+    padding:20px;
+    float:left;
+    margin:20px;
+    width:150px;
+    height:150px;
+    /* Standard Syntax */
+    transform:skewy(20deg);
+    /* For Safari 5.1 to 6.0 */
+    -webkit-transform:skewy(20deg);
+    /* For Internet Explorer 9.0 */
+    -ms-transform:skewy(20deg);
+}
+.kotak5{
+    background:rgb(255,255,255);
+    padding:20px;
+    float:left;
+    margin:20px;
+    width:150px;
+    height:150px;
+    /* Standard Syntax */
+    transform:skewx(20deg);
+    /* For Safari 5.1 to 6.0 */
+    -webkit-transform:skewx(20deg);
+    /* For Internet Explorer 9.0 */
+    -ms-transform:skewx(20deg);
+}
+    /* Pakai syntax standard dan lain-lain itu bisa semua, 
+    tetapi jika digunakan lebih dari 1 jenis syntax dan didalamnya ada untuk Safari, 
+    maka yang lebih diproritaskan ya Safari*/
