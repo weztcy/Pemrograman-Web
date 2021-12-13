@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinus Student Blog</title>
+    <style>
+        header{
+            padding-top: 175px;
+            background-image:url("awan1.jpg");
+            background-size:cover;
+            background-repeat:no-repeat;
+        }
+        img{
+            width:1900;
+            height:200;
+        }
+        body{
+            background-color:rgb(11,59,59);
+            color:rgb(255,255,255);
+        }
+        nav{
+            padding:5px;
+            font-size:18px;
+        }
+        a{
+            padding:4px 10px;
+            color:rgb(0,0,0);
+            background:rgb(255,255,255);
+            border-radius:8px;
+        }
+        a:hover{
+            color:rgb(255,0,0);
+        }
+        .side-margin{
+            margin-left:50px;
+            margin-right:50px;
+        }
+        form{
+            font-size:17px;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <h1 align=center>Dinus Student Blog</h1>
+    <hr>
+    <!-- Navigation -->
+    <nav align=center>
+        |&nbsp;
+        <a href=Beranda.html>Beranda</a>
+        &nbsp;|&nbsp;
+        <a href=Profil.html>Profil</a>
+        &nbsp;|&nbsp;
+        <a href=Artikel.html>Artikel</a>
+        &nbsp;|&nbsp;
+        <a href="Buku Tamu.html">Buku Tamu</a>
+        &nbsp;|
+    </nav>
+    <hr>
+    <br>
+    <h2 class=side-margin align=center>Form Buku Tamu</h2>
+    <form action="register.php" method="post" class=side-margin>
+        <p>Nama lengkap:</p>
+            <input type="text" size="30">
+        <p>Jenis kelamin</p>
+            <input type="radio" name="Laki-laki" value="Laki-laki">
+                <label>Laki-laki</label>
+            <input type="radio" name="Perempuan" value="Perempuan">
+                <label>Perempuan</label>
+        <p>Alamat tinggal:</p>
+            <input type="text" name="alamat" size="30">
+        <p>Email:</p>
+            <input type="text" name="email" size="30">
+        <p>Aktif pada sosial media:</p>
+            <input type="checkbox" name="aktif_sosmed" value="Facebook">
+                <label>Facebook</label>
+            <input type="checkbox" name="aktif_sosmed" value="Twitter">
+                <label>Twitter</label>
+            <input type="checkbox" name="aktif_sosmed" value="Instagram">
+                <label>Instagram</label>
+            <input type="checkbox" name="aktif_sosmed" value="Path">
+                <label>Path</label>
+        <p>Mengetahui web ini dari:</p>
+            <select name="Info">
+                <option value="Web Udinus">Web Udinus</option>
+                <option value="Surat kabar">Surat kabar</option>
+                <option value="Teman">Teman</option>
+                <option value="Browsing">Browsing</option>
+            </select>
+        <p>Pesan:</p>
+            <textarea name="pesan" id="pesan" cols="30" rows="10"></textarea>
+        <br><br>
+        <div>
+            <input type="submit" value="Kirim">
+            <input type="reset" value="Batal">
+        </div>
+    </form>
+    <br>
+    <hr>
+    <footer style=font-size:15px align=center>
+        <div>Copyright &copy;2021 Mahasiswa Matrikulasi</div>
+    </footer>
+    </body>
+</html>
